@@ -36,6 +36,7 @@
 - **[唯音輸入法 vChewing](https://github.com/vChewing/vChewing-macOS)**（MIT-NTL，© The vChewing Project）— macOS 輸入法註冊流程的參考。
 - **[CC-CEDICT](https://cc-cedict.org/)**（CC BY-SA 4.0）— 補上現代詞與專有名詞。
 - **[wordfreq](https://github.com/rspeer/wordfreq)**（資料 CC BY-SA 4.0）— 中英判斷用的英文常用字表。
+- **[OpenCC](https://github.com/BYVoid/OpenCC)**（Apache-2.0）—「打繁出簡」選用功能的繁→簡對照表。
 
 字元 bigram 由創音自有的白話語料訓練。完整逐條的授權聲明見 **[NOTICE](./NOTICE)**；創音自寫的程式碼採 **[MIT 授權](./LICENSE)**，且不依賴任何 GPL/LGPL 函式庫。
 
