@@ -1,0 +1,42 @@
+創音 TronIn
+Copyright (c) 2026 1Tron System Co., Ltd.
+
+可以放心使用：創音自寫的程式碼採 MIT 授權（見 LICENSE），不依賴任何 GPL/LGPL/AGPL
+函式庫。App 內附的資料只來自下列「permissive（寬鬆）」授權的來源，全部可自由散佈
+（標示來源即可）。
+
+— TronIn's own code is under the MIT License (see LICENSE). It bundles data from the
+permissively-licensed sources below; none is GPL/LGPL/AGPL. Free to use and redistribute.
+
+────────────────────────────────────────────────────────────────────────
+附在 App 內的資料 (bundled data)
+────────────────────────────────────────────────────────────────────────
+
+1. McBopomofo 語言模型資料 — MIT License
+   https://github.com/openvanilla/McBopomofo
+   中文詞庫與頻率模型 (data.txt) 由 McBopomofo 的原始資料烹煮而成。
+
+2. libtabe — BSD 3-Clause License
+   McBopomofo 詞庫最早所本的中文詞表。
+   Copyright (c) 1999 TaBE Project / Pai-Hsiang Hsiao / Academia Sinica;
+   Copyright (c) 1996 Chih-Hao Tsai. Provided "AS IS", without warranty.
+
+3. CC-CEDICT — CC BY-SA 4.0
+   https://cc-cedict.org/
+   補入現代詞與專有名詞。源自 CC-CEDICT 的詞庫資料部分，依其授權以 CC BY-SA 4.0
+   釋出並標示來源；此義務只及於資料，不影響創音的程式授權。
+
+4. English 常用字表 (english.txt) — wordfreq, CC BY-SA 4.0
+   https://github.com/rspeer/wordfreq  (Robyn Speer; DOI 10.5281/zenodo.7199437)
+   中英免切換判斷用的英文詞頻表。同為 CC BY-SA 來源，標示來源後可自由散佈。
+
+────────────────────────────────────────────────────────────────────────
+參考過的程式 (algorithms studied, re-implemented in original Swift — 無原始碼複製)
+────────────────────────────────────────────────────────────────────────
+
+· McBopomofo (MIT) — 讀音格最佳路徑斷詞、macOS 輸入法註冊流程。
+· vChewing 唯音 (MIT-NTL, © The vChewing Project) — 輸入法註冊流程；依其條款不以
+  其商標／名稱為創音背書。
+
+大千標準注音鍵盤配列為各注音輸入法通用的公開配置，不歸屬任何單一專案。
+其餘程式碼皆為自寫，未使用任何 GPL 授權的程式或資料。
