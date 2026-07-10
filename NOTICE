@@ -51,7 +51,7 @@ permissively-licensed sources below; none is GPL/LGPL/AGPL. Free to use and redi
 
 · vChewing 唯音 (© The vChewing Project) — 唯音為分割授權（split-licensed）：
   僅其 macOS app 外殼與輸入法註冊流程為 MIT-NTL；其組字引擎（Megrez / Tekkon /
-  Homa）為 LGPL/AGPL 著佐權，詞頻資料為 NAER 非商用授權 — 創音皆未使用、未連結、
+  Homa）為 LGPL/AGPL 著佐權（copyleft），詞頻資料為 NAER 非商用授權 — 創音皆未使用、未連結、
   未複製。創音參考的僅有：MIT-NTL 部分的輸入法註冊流程，以及以原創 Swift 重新
   實作的純演算法概念（改字時固定周圍字、選字窗貼游標定位）。依其條款，不以其
   商標／名稱為創音背書。

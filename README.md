@@ -42,7 +42,7 @@
 - **[wordfreq](https://github.com/rspeer/wordfreq)**（資料 CC BY-SA 4.0）— 中英判斷用的英文常用字表。
 - **[OpenCC](https://github.com/BYVoid/OpenCC)**（Apache-2.0）—「打繁出簡」的繁→簡對照表，與選字窗標示異體字的對照表。
 - **CNS11643 全字庫**（[數位發展部](https://www.cns11643.gov.tw/)，政府資料開放授權 OGDL v1）— 罕用字／異體字的注音讀音擴充。
-- **[唯音輸入法 vChewing](https://github.com/vChewing/vChewing-macOS)**（© The vChewing Project）— 輸入法註冊流程（其 MIT-NTL 授權的 app 外殼部分）與幾個互動概念的參考；唯音的組字引擎與詞頻資料為著佐權／非商用授權，創音**未**使用。
+- **[唯音輸入法 vChewing](https://github.com/vChewing/vChewing-macOS)**（© The vChewing Project）— 輸入法註冊流程（其 MIT-NTL 授權的 app 外殼部分）與幾個互動概念的參考；唯音的組字引擎與詞頻資料為著佐權（copyleft）／非商用授權，創音**未**使用。
 - **[mozc](https://github.com/google/mozc)**（BSD-3，Google 日文輸入法）— 引擎子行程隔離等輸入法架構的參考。
 
 字元 bigram 由創音自有的白話語料訓練。完整逐條的授權聲明見 **[NOTICE](./NOTICE)**；創音自寫的程式碼採 **[MIT 授權](./LICENSE)**，且不依賴任何 GPL/LGPL/AGPL 函式庫。
