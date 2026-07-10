@@ -11,34 +11,41 @@
 3. **系統設定 ▸ 鍵盤 ▸ 輸入來源 ▸ 編輯…／＋** ▸ 繁體中文 ▸ **創音** ▸ 加入
 4. **Ctrl + Space**（或選單列的輸入法選單）切到創音，開始打字
 
-> 看不到「創音」？**登出再登入**一次（macOS 對輸入法清單有快取）。
+> 加入後若看不到「創音」，再登出重新登入一次即可（macOS 對輸入法清單有快取）。
+
+安裝後創音每天自動檢查一次新版；有新版時，輸入法選單會出現下載提示，點一下就能更新。
 
 ## 怎麼用
 
 - **中英不用切換**：注音能拼成中文就出中文，拼不成就自動當英文。
 - **空白鍵**：還沒標聲調時補一聲，已經有聲調時送出。
-- **Tab**：英文自動完成、中文換下一組候選字。
-- **選字**：按 →／↓／Tab 打開選字視窗，再用 1–9、方向鍵或滑鼠選字，按 Enter 確定。
+- **選字**：按 →／↓／Tab 打開選字視窗，再用方向鍵、1–9 或滑鼠選字，Enter 確定，Esc 關閉。
 - **回頭改字**：打字途中按 ← 把游標移到要改的字，按 ↓ 換字、按 Backspace 刪字。
-- **符號**：打中文時按符號鍵會跳出中文符號選單；按 `~` 打開更多符號。
+- **符號**：按符號鍵會跳出中文符號選單（繼續打字就自動送出預設符號）；`~` 打開完整符號表；要半形符號，按住 ⌥ 再按符號鍵直接輸出。
 - **聯想詞**：送出一個字後按 Tab，會帶出常用詞和你常打的句子。
+- **Tab 還給程式**：英文打到一半按 Tab，字直接送出、Tab 交還給程式 — 終端機的自動補完照常能用。
+- **右 Shift**：想整段打純英文時，按一下右 Shift 切到英文模式（游標旁會提示「英文 EN」），再按一下切回注音。
+- **輸入法選單**：可切換「輸出簡體中文」（打繁出簡）、匯入／匯出你的詞庫、編輯快捷文字本。
 
 ## 隱私
 
 創音**完全離線**：不連雲端、不上傳任何打字內容。學到的東西（你的常用詞等）只留在你自己這台電腦的
-`~/Library/Application Support/TronIn/`。
+`~/Library/Application Support/TronIn/`。唯一的網路連線是每天向 GitHub 檢查一次新版本，
+只下載、不上傳。
 
 ## 致謝
 
 創音站在許多開放、慷慨的前人成果之上。在此致謝：
 
 - **[小麥注音 McBopomofo](https://github.com/openvanilla/McBopomofo)**（MIT）— 中文詞庫與頻率模型的底座，斷詞演算法也向它學習；其詞彙最早源自 **libtabe**（BSD）。
-- **[唯音輸入法 vChewing](https://github.com/vChewing/vChewing-macOS)**（MIT-NTL，© The vChewing Project）— macOS 輸入法註冊流程的參考。
 - **[CC-CEDICT](https://cc-cedict.org/)**（CC BY-SA 4.0）— 補上現代詞與專有名詞。
 - **[wordfreq](https://github.com/rspeer/wordfreq)**（資料 CC BY-SA 4.0）— 中英判斷用的英文常用字表。
-- **[OpenCC](https://github.com/BYVoid/OpenCC)**（Apache-2.0）—「打繁出簡」選用功能的繁→簡對照表。
+- **[OpenCC](https://github.com/BYVoid/OpenCC)**（Apache-2.0）—「打繁出簡」的繁→簡對照表，與選字窗標示異體字的對照表。
+- **CNS11643 全字庫**（[數位發展部](https://www.cns11643.gov.tw/)，政府資料開放授權 OGDL v1）— 罕用字／異體字的注音讀音擴充。
+- **[唯音輸入法 vChewing](https://github.com/vChewing/vChewing-macOS)**（© The vChewing Project）— 輸入法註冊流程（其 MIT-NTL 授權的 app 外殼部分）與幾個互動概念的參考；唯音的組字引擎與詞頻資料為著佐權／非商用授權，創音**未**使用。
+- **[mozc](https://github.com/google/mozc)**（BSD-3，Google 日文輸入法）— 引擎子行程隔離等輸入法架構的參考。
 
-字元 bigram 由創音自有的白話語料訓練。完整逐條的授權聲明見 **[NOTICE](./NOTICE)**；創音自寫的程式碼採 **[MIT 授權](./LICENSE)**，且不依賴任何 GPL/LGPL 函式庫。
+字元 bigram 由創音自有的白話語料訓練。完整逐條的授權聲明見 **[NOTICE](./NOTICE)**；創音自寫的程式碼採 **[MIT 授權](./LICENSE)**，且不依賴任何 GPL/LGPL/AGPL 函式庫。
 
 ## 授權
 
